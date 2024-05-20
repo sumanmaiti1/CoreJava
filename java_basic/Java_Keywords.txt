@@ -1,0 +1,79 @@
+There are Total 67 keywords af of Java 17.
+----------------------------------------------
+In general keywords cann't be used as Identifiers. 
+Identifiers are a name in java Program. They can be class name, method name, or variable name.
+That means they can't e used for class, method or variable name.
+
+BUT 16 among those 67 keywords are CONTEXT_SENSITIVE. 
+That means they work as Keyword when they are used in related Features...
+these are EXPORTS, MODULE, OPEN, OPENS, PROVIDES, REQUIRES, TO, TRANSITIVE, USES, WITH, RECORD, SEALED, NON-SEALED, PERMITES, YIELD, SWITCH, VAR
+
+
+"_" / UNDERSCORE is also a keyword from JAVA 9 to presevet the use of UNDERSCORE in  indetifiers
+
+REST 51 Keywords in Java......
+
+Amongs them 2 are Not Used ...
+--------------------------------------
+goto
+const
+
+for rest 51.......
+Eight are for premitive data type...
+--------------------------------------
+byte
+short
+int
+long
+float
+double
+boolean
+char
+
+Eleven are for cotrol statements.............
+--------------------------------------
+for
+While
+do
+break
+continue
+if
+else
+switch
+
+rest are like below
+--------------------------------------
+public
+private
+default
+protected
+static
+void
+final
+strictfp
+transient
+volatile
+
+instanceof
+new
+abstract 
+assert
+true
+false
+case
+catch
+class
+enum
+extends
+finally
+implements
+import
+interface
+native
+package
+return
+super
+this
+throw
+throws
+try
