@@ -1,8 +1,11 @@
 # CoreJava
 
 Purpose : This series is for the core java Batches
+
 Ref Books : Java Complete Reference- Herbert Schildt - 12th Edition
+
 Instructor : Suman Maiti
+
 IDE : Notepad++ , VS Code, IntelliJ
 
 This is based on Java 17
