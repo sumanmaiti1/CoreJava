@@ -7,7 +7,7 @@ Instructor : Suman Maiti
 
 /* This is my First Java Program */
 
-package com.corejava.simple;
+package com.corejava.java_basic.simple;
 
 class FirstJavaProgram{
 	public static void main(String[] args){
