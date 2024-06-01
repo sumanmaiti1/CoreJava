@@ -5,7 +5,7 @@ Ref Books : Java Complete Reference- Herbert Schildt - 12th Edition
 Instructor : Suman Maiti
 */
 
-// package com.corejava.datatypes.primitives;
+package com.corejava.datatypes.primitives;
 //----------Here we will see the FLOAT Object, float datatype ---------
 
 public class Floats {

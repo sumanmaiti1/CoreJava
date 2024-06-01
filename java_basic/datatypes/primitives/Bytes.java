@@ -1,3 +1,5 @@
+package com.corejava.java_basic.datatypes.primitives;
+
 /**
 Purpose : This series is for the core java Batches
 This is based on Java 17
