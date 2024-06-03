@@ -1,4 +1,4 @@
-// Diamont Shaped Pattern
+// Diamond Shaped Pattern
 //     *
 //    ***
 //   *****
@@ -14,7 +14,7 @@ package com.corejava.practice.javatpoint.simple.pattern;
 public class DiamondShapePattern {
     public static void main(String[] args) {
         int noOfRow = 8;
-        int left,right,mid=0;
+        int left=0,right=0,mid=0;
         String strRow="";
         int updown = noOfRow/2;
     //------------------ For first part ---up direction ----------

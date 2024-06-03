@@ -9,7 +9,7 @@ package com.corejava.practice.javatpoint.simple.pattern;
 
 public class LeftRightStartTriangle {
     public static void main(String[] args) {
-        int noOfRow = 3,left=0,right=0,mid=0;   
+        int noOfRow = 5,left=0,right=0,mid=0;   
 
         for(int i=0;i<noOfRow;i++){
             String strRow = "";
