@@ -1,6 +1,6 @@
 //4. Write a Java Program to convert Integer numbers and Binary numbers.
 
-package com.corejava.practice.geeksforgeeks.simple;
+package corejava.practice.geeksforgeeks.simple;
 import java.lang.Math;
 
 public class ConvertIntToBinary {

@@ -7,7 +7,7 @@ Instructor : Suman Maiti
 
 // package com.corejava.datatypes.primitives;
 //----------Here we will see the String Object, String datatype ---------
-package com.corejava.java_basic.datatypes.strings;
+package corejava.java_basic.datatypes.strings;
 
 public class String_1 {
     public static void main(String[] args) {

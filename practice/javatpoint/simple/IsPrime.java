@@ -1,6 +1,6 @@
 // Prime Number Program in Java
 
-package com.corejava.practice.javatpoint.simple;
+package corejava.practice.javatpoint.simple;
 
 public class IsPrime {
     public static void main(String... args){

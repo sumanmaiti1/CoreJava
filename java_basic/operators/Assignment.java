@@ -1,4 +1,4 @@
-package com.corejava.java_basic.operators;
+package corejava.java_basic.operators;
 
 public class Assignment {
 	public static void main(String[] args) {

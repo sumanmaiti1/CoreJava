@@ -1,6 +1,6 @@
 //2. Write a Program in Java to Add two Numbers.
 
-package com.corejava.practice.geeksforgeeks.simple;
+package corejava.practice.geeksforgeeks.simple;
 
 public class AddNumbers {
     public static void main(String[] args) {

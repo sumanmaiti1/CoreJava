@@ -1,6 +1,6 @@
 //3. Write a Program to Swap Two Numbers
 
-package com.corejava.practice.geeksforgeeks.simple;
+package corejava.practice.geeksforgeeks.simple;
 
 public class SwapNumbers {
     public static void main(String[] arhs) {

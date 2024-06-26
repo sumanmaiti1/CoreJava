@@ -1,6 +1,6 @@
 // 1. Write Hello World Program in Java
 
-package com.corejava.practice.geeksforgeeks.simple;
+package corejava.practice.geeksforgeeks.simple;
 
 class FirstJavaProgram{
 	public static void main(String[] args){

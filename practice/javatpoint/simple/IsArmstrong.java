@@ -1,5 +1,5 @@
 // Armstrong Number in Java
-package com.corejava.practice.javatpoint.simple;
+package corejava.practice.javatpoint.simple;
 
 public class IsArmstrong {
     public static void main(String[] args) {

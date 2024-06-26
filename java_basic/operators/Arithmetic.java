@@ -1,6 +1,6 @@
 // ----------------- Arithmetic + - / % = --------------------
 
-package com.corejava.java_basic.operators;
+package corejava.java_basic.operators;
 
 public class Arithmetic {
 	public static void main(String[] args) {

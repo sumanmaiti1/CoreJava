@@ -1,4 +1,4 @@
-package com.corejava.java_basic.datatypes.primitives;
+package corejava.java_basic.datatypes.primitives;
 
 public class AutomaticTypeConversion {
 	

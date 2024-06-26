@@ -1,4 +1,4 @@
-package com.corejava.java_basic.variables;
+package corejava.java_basic.variables;
 
 public class Variable_2 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.corejava.practice.javatpoint.simple.pattern;
+package corejava.practice.javatpoint.simple.pattern;
 
 import java.rmi.NoSuchObjectException;
 

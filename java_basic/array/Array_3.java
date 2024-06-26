@@ -1,4 +1,4 @@
-package com.corejava.java_basic.array;
+package corejava.java_basic.array;
 
 public class Array_3 {	 
 	public static int k = 0;

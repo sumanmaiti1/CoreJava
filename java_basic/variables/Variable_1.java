@@ -7,7 +7,7 @@ Instructor : Suman Maiti
 
 /* This is all about Java Variables */
 
-package com.corejava.java_basic.variables;
+package corejava.java_basic.variables;
 
 
 class variables {

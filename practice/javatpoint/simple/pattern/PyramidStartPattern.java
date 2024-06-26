@@ -6,7 +6,7 @@
 //  * * * * *
 
 
-package com.corejava.practice.javatpoint.simple.pattern;
+package corejava.practice.javatpoint.simple.pattern;
 
 public class PyramidStartPattern {
     public static void main(String[] args) {

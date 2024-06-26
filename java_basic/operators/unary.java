@@ -1,6 +1,6 @@
 //--------------------- Unary + - +++ --- ! ~ -----------------------
 
-package com.corejava.java_basic.operators;
+package corejava.java_basic.operators;
 
 public class Unary {
     public static void main(String[] args) {

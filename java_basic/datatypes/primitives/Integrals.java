@@ -5,7 +5,7 @@ Ref Books : Java Complete Reference- Herbert Schildt - 12th Edition
 Instructor : Suman Maiti
 */
 
-package com.corejava.java_basic.datatypes.primitives;
+package corejava.java_basic.datatypes.primitives;
 
 public class Integrals{
 	public static void main(String... args){

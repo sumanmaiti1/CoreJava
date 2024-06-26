@@ -5,7 +5,7 @@ Ref Books : Java Complete Reference- Herbert Schildt - 12th Edition
 Instructor : Suman Maiti
 */
 
-package com.corejava.java_basic.enums;
+package corejava.java_basic.enums;
 
 /* This is Demo Enum type Java Program */
 public class TestCases{

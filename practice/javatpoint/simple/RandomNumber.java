@@ -1,6 +1,6 @@
 // How to Generate Random Number in Java
 
-package com.corejava.practice.javatpoint.simple;
+package corejava.practice.javatpoint.simple;
 
 
 public class RandomNumber {
