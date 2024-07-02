@@ -34,7 +34,7 @@ public class Chars {
         System.out.println(Character.getNumericValue('X'));
         System.out.println(Character.isAlphabetic(123));
         System.out.println(Character.isDigit(123));
-        //System.out.println(Character.isEmoji(1234));
+        System.out.println(Character.isEmoji(1234));
         System.out.println(Character.isLowerCase(100));
         System.out.println(Character.isWhitespace(' '));
     }

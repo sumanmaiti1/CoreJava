@@ -17,7 +17,7 @@ public class Integers {
         System.out.println("BYTES of INTEGER=" + Integer.BYTES);
         System.out.println("BIT SIZE of INTEGER=" + Integer.SIZE);
         System.out.println("TYPE of INTEGER=" + Integer.TYPE);
-        System.out.println("TYPE of INTEGER=" + Integer.class);
+        System.out.println("CLASS of INTEGER=" + Integer.class);
 
         int i1 = 1000000;
         int i2 = 0XFACE;

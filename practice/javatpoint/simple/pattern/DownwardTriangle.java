@@ -4,7 +4,7 @@ import java.rmi.NoSuchObjectException;
 
 public class DownwardTriangle {
 	public static void main(String[] args) {
-		DownwardTriangle.downwardTriangle(7, "+");
+		DownwardTriangle.downwardTriangle(17, "%");
 	}
 	
 	private static void downwardTriangle(int noOfRows, String fill) {

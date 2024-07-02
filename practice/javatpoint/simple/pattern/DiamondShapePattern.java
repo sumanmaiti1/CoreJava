@@ -13,7 +13,7 @@ package corejava.practice.javatpoint.simple.pattern;
 
 public class DiamondShapePattern {
     public static void main(String[] args) {
-        int noOfRow = 8;
+        int noOfRow = 15;
         int left=0,right=0,mid=0;
         String strRow="";
         int updown = noOfRow/2;
