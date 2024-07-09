@@ -1,4 +1,4 @@
-package corejava.java_basic.input_output.character_streams;
+package corejava.java_basic.input_output.java_io.character_streams;
 
 import java.io.*;
 

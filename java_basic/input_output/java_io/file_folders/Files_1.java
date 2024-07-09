@@ -1,4 +1,4 @@
-package corejava.java_basic.input_output.file_folders;
+package corejava.java_basic.input_output.java_io.file_folders;
 
 import java.io.File;
 

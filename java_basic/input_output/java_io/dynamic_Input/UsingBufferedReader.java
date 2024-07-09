@@ -1,4 +1,4 @@
-package corejava.java_basic.input_output.dynamic_Input;
+package corejava.java_basic.input_output.java_io.dynamic_Input;
 
 import java.io.BufferedReader;
 import java.io.IOException;
