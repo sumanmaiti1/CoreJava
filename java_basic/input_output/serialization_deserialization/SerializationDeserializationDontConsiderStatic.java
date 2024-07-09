@@ -29,6 +29,7 @@ public class SerializationDeserializationDontConsiderStatic {
 			System.out.println("Printing Human object value before Serialization");
 			s1.showStudentDetails();
 			oos.writeObject(s1);
+			oos.flush();
 			System.out.println(s1);
 			
 			System.out.println("\n\n");

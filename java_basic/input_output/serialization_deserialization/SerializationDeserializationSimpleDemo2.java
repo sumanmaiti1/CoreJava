@@ -33,6 +33,7 @@ public class SerializationDeserializationSimpleDemo2 {
 			s1.showStudentDetails();
 			s2.showStudentDetails();
 			oos.writeObject(aList1);
+			oos.flush();
 	
 			System.out.println(s1);
 			System.out.println(s2);

@@ -29,6 +29,7 @@ public class SerializationDeserializationWithHasARelationship {
 			System.out.println("Printing Employee object value before Serialization");
 			s1.showEmployeeDetails();
 			oos.writeObject(s1);
+			oos.flush();
 			System.out.println(s1);
 			
 			System.out.println("\n\n");

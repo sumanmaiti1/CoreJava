@@ -29,6 +29,7 @@ public class SerializationDeserializationWithParentAndChildClass {
 			System.out.println("Printing Car object value before Serialization");
 			s1.showCarDetails();
 			oos.writeObject(s1);
+			oos.flush();
 			System.out.println(s1);
 			
 			System.out.println("\n\n");
