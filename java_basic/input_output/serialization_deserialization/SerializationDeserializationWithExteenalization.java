@@ -55,7 +55,7 @@ class Pupils implements Externalizable {
 	private int sID;
 	private String sName;
 	private String sCollegeName;
-	private String sMobileNumber;
+	private String sMobileNumber; //-------------- We will reformat this Mobile Number. This will be saved in ABC.TXT without +01- part ------------
 	
 	//--------------- this is Default Constructor .Needed forExternalization ------------------ 
 	public Pupils() {}
@@ -74,7 +74,7 @@ class Pupils implements Externalizable {
 		System.out.println("--------------------------------");
 		System.out.println("Pupils Id : " + sID);
 		System.out.println("Pupils Name : " + sName);
-		System.out.println("College name  : " + sCollegeName);
+		System.out.println("College name  : " + sCollegeName); //-------------- We will reformat this Mobile Number. This will be saved in ABC.TXT without +01- part ------------
 	}
 
 	@Override
@@ -83,7 +83,7 @@ class Pupils implements Externalizable {
 		out.writeInt(sID);
 		out.writeUTF(sName);
 		out.writeUTF(sCollegeName);
-		out.writeUTF(sMobileNumber.split("-")[1]);
+		out.writeUTF(sMobileNumber.split("-")[1]);//-------------- We will reformat this Mobile Number. This will be saved in ABC.TXT without +01- part ------------
 	}
 
 	@Override
@@ -92,7 +92,7 @@ class Pupils implements Externalizable {
 		sID = in.readInt();
 		sName= in.readUTF();
 		sCollegeName = in.readUTF();
-		sMobileNumber = "+91-" + in.readUTF();
+		sMobileNumber = "+91-" + in.readUTF();//-------------- We will reformat this Mobile Number. This will be saved in ABC.TXT without +01- part ------------
 	}
 
 }
