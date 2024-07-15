@@ -11,7 +11,7 @@ import java.io.Externalizable;
 import java.io.File;
 import java.io.Serializable;
 
-public class SerializationDeserializationWithExteenalization {
+public class SerializationDeserializationWithExternalization {
 	public static void main(String[] args) throws IOException {
 		// ----------------- creating abc.text file if it doesn't exist ---------------
 		File f = new File("abc.text");
@@ -55,7 +55,7 @@ class Pupils implements Externalizable {
 	private int sID;
 	private String sName;
 	private String sCollegeName;
-	private String sMobileNumber; //-------------- We will reformat this Mobile Number. This will be saved in ABC.TXT without +01- part ------------
+	private String sMobileNumber; //-------------- We will reformat this Mobile Number. This will be saved in ABC.TXT without +91- part ------------
 	
 	//--------------- this is Default Constructor .Needed forExternalization ------------------ 
 	public Pupils() {}
@@ -74,7 +74,7 @@ class Pupils implements Externalizable {
 		System.out.println("--------------------------------");
 		System.out.println("Pupils Id : " + sID);
 		System.out.println("Pupils Name : " + sName);
-		System.out.println("College name  : " + sCollegeName); //-------------- We will reformat this Mobile Number. This will be saved in ABC.TXT without +01- part ------------
+		System.out.println("College name  : " + sCollegeName); //-------------- We will reformat this Mobile Number. This will be saved in ABC.TXT without +91- part ------------
 	}
 
 	@Override
@@ -83,7 +83,7 @@ class Pupils implements Externalizable {
 		out.writeInt(sID);
 		out.writeUTF(sName);
 		out.writeUTF(sCollegeName);
-		out.writeUTF(sMobileNumber.split("-")[1]);//-------------- We will reformat this Mobile Number. This will be saved in ABC.TXT without +01- part ------------
+		out.writeUTF(sMobileNumber.split("-")[1]);//-------------- We will reformat this Mobile Number. This will be saved in ABC.TXT without +91- part ------------
 	}
 
 	@Override
@@ -92,7 +92,7 @@ class Pupils implements Externalizable {
 		sID = in.readInt();
 		sName= in.readUTF();
 		sCollegeName = in.readUTF();
-		sMobileNumber = "+91-" + in.readUTF();//-------------- We will reformat this Mobile Number. This will be saved in ABC.TXT without +01- part ------------
+		sMobileNumber = "+91-" + in.readUTF();//-------------- We will reformat this Mobile Number. This will be saved in ABC.TXT without +91- part ------------
 	}
 
 }

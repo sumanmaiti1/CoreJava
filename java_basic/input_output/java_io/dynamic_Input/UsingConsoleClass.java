@@ -18,5 +18,6 @@ public class UsingConsoleClass {
 		System.out.println(con.readLine("Please enter your name : "));
 		
 		System.out.println(new String(con.readPassword("Please enter any Secret password :")));
+		System.out.println(String.valueOf(con.readPassword("Please Enter 6 Digit OTP : ")));
 	}
 }
