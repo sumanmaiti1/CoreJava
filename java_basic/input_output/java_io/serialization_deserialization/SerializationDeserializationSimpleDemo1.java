@@ -1,4 +1,4 @@
-package corejava.java_basic.input_output.serialization_deserialization;
+package corejava.java_basic.input_output.java_io.serialization_deserialization;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -7,9 +7,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.File;
 import java.io.Serializable;
-import java.util.ArrayList;
 
-public class SerializationDeserializationDontConsiderStatic {
+public class SerializationDeserializationSimpleDemo1 {
 	public static void main(String[] args) throws IOException {
 		// ----------------- creating abc.text file if it doesn't exist ---------------
 		File f = new File("abc.text");
@@ -17,8 +16,8 @@ public class SerializationDeserializationDontConsiderStatic {
 			f.createNewFile();
 		}
 		
-		//------------- Creating Human Object Here -------------
-		Human s1 = new Human("Ramesh","Sanatani");
+		//------------- Creating Student Object Here -------------
+		Student s1 = new Student(12345,"Ramesh","Sanatani","Sri Ram Institute");
 		
 		// ------------- Creating Stream Objects -----------------
 		try (FileInputStream fis = new FileInputStream(f);
@@ -26,7 +25,7 @@ public class SerializationDeserializationDontConsiderStatic {
 				ObjectOutputStream oos = new ObjectOutputStream(fos);
 				ObjectInputStream ois = new ObjectInputStream(fis)) {
 			
-			System.out.println("Printing Human object value before Serialization");
+			System.out.println("Printing Student object value before Serialization");
 			s1.showStudentDetails();
 			oos.writeObject(s1);
 			oos.flush();
@@ -34,15 +33,12 @@ public class SerializationDeserializationDontConsiderStatic {
 			
 			System.out.println("\n\n");
 			
-			
-			//---------------- Static Variables will not be present in ABC.txt------------------
-			Human s2 = (Human) ois.readObject();
-			System.out.println("Printing Human object value after De-Serialization");
+			Student s2 = (Student) ois.readObject();
+			System.out.println("Printing Student object value after De-Serialization");
 			s2.showStudentDetails();
 			System.out.println(s2);
-			
 			f.deleteOnExit();
-			
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -50,24 +46,28 @@ public class SerializationDeserializationDontConsiderStatic {
 	}
 }
 
-//------------------- This is Human Class. It needs to implement Serializable interface for Serialization and De-Serialization ----------------
-class Human implements Serializable {
+//------------------- This is Student Class. It needs to implement Serializable interface for Serialization and De-Serialization ----------------
+class Student implements Serializable {
+	private int sID;
 	private String sName;
 	private String sTitle;
-	private static String scientificName = "Homo Sapience";
+	private String sCollegeName;
 
-	// -------------- This is Human Class Constructor ----------------
-	public Human(String name, String title) {
+	// -------------- This is Student Class Constructor ----------------
+	public Student(int id, String name, String title, String collegeName) {
+		sID = id;
 		sName = name;
 		sTitle = title;
+		this.sCollegeName = collegeName;
 	}
 
-	// ------------ This method Display the Human Details ---------------
+	// ------------ This method Display the Student Details ---------------
 	public void showStudentDetails() {
-		System.out.println("Printing Human Details");
+		System.out.println("Printing Student Details");
 		System.out.println("--------------------------------");
-		System.out.println("Human Name : " + sName + " " + sTitle);
-		System.out.println("Scientific name  : " + scientificName);
+		System.out.println("Student Id : " + sID);
+		System.out.println("Student Name : " + sName + " " + sTitle);
+		System.out.println("College name  : " + sCollegeName);
 	}
 
 }

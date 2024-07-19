@@ -1,4 +1,4 @@
-package corejava.java_basic.input_output.serialization_deserialization;
+package corejava.java_basic.input_output.java_io.serialization_deserialization;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;

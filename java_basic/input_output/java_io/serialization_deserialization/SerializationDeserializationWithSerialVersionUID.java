@@ -1,4 +1,4 @@
-package corejava.java_basic.input_output.serialization_deserialization;
+package corejava.java_basic.input_output.java_io.serialization_deserialization;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutput;
@@ -54,8 +54,8 @@ public class SerializationDeserializationWithSerialVersionUID {
 		
 		SerializationDeserializationWithSerialVersionUID obj = new SerializationDeserializationWithSerialVersionUID();
 		
-		//obj.doSerialize(obj.s1);
-		obj.doDeSerialize(f);		
+		obj.doSerialize(obj.s1);
+		//obj.doDeSerialize(f);		
 		
 	}
 }
@@ -66,7 +66,7 @@ class Students implements Serializable {
 	private int sID;
 	private String sName;
 	private String sCollegeName;
-	private String sMobileNumber = "9876543210"; 
+	//private String sMobileNumber = "9876543210"; 
 	
 	public Students(int sID, String sName, String sCollageName) {
 		this.sID = sID;

@@ -1,4 +1,4 @@
-package corejava.java_basic.array;
+package corejava.java_basic.array.basic_array;
 
 public class Array_2 {
 	//------------------ For Multi Dimentional Array ----------------

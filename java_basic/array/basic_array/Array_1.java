@@ -1,4 +1,4 @@
-package corejava.java_basic.array;
+package corejava.java_basic.array.basic_array;
 
 public class Array_1 {
 	
@@ -7,6 +7,8 @@ public class Array_1 {
 	
 	public static void main(String[] args) {
 		myIntArray = new int[] {1,2,3,4,5};
+		int[] myIntArrayClone = myIntArray.clone();
+		
 		myStringArray = new String[5];
 		
 		myStringArray[0] = "Jay Shree Krishna";
@@ -37,6 +39,13 @@ public class Array_1 {
 		System.out.println(myStringArray == myStringArray1);
 		System.out.println(myStringArray1.hashCode());
 		System.out.println(myStringArray1.toString());
+		System.out.println(myStringArray1[0].hashCode()==myStringArray[0].hashCode());
+		System.out.println(myStringArray[0].hashCode()==myStringArrayClone[0].hashCode());
+		System.out.println(myStringArray[0]==myStringArrayClone[0]);
+		System.out.println(myStringArray[0].equals(myStringArrayClone[0]));
+		
+		System.out.println(myIntArray.hashCode()==myIntArrayClone.hashCode());
+		System.out.println(myIntArray[0]==myIntArrayClone[0]);
 		
 	}
 }
