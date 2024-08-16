@@ -5,7 +5,7 @@ package corejava.practice.javatpoint.simple;
 import java.util.Scanner;
 
 public class Factorial {
-    static int result = 1;
+    static double result = 1;
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.print("Please enter a number : ");
@@ -14,10 +14,10 @@ public class Factorial {
         System.out.println("Factorial of " + number + " is " + factorial(number));
     }
 
-    private static int factorial(int number){        
+    private static double factorial(int number){        
         if(number==0){return 1;}
         else{
-            result = result * number;
+            result = (double)result * number;
             factorial(number-1);
         }
         return result; 
