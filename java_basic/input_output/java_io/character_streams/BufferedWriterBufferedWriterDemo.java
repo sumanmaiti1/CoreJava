@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class BufferedWritedBufferedWriterDemo {
+public class BufferedWriterBufferedWriterDemo {
 	public static void main(String[] args) throws IOException {
 		//-------------- Creating folders and File --------------
 		File textFile1 = new File("a.txt");
