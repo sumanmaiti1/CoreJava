@@ -1,3 +1,7 @@
+/**
+ * This program doesn't work right
+ */
+
 package corejava.java_basic.input_output;
 
 import java.io.IOException;
