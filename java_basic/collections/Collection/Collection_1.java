@@ -153,6 +153,5 @@ public class Collection_1 {
 		splitIterator2.forEachRemaining(System.out::println);
 		System.out.println("------------------------------------------------------");
 		
-		
 		}
 }
