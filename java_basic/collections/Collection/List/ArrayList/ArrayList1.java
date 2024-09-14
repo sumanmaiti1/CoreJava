@@ -1,3 +1,9 @@
+/**
+ * This class basically declairs Arraylist in different way 
+ * ArrayList<E> extends AbstractList<E>
+        implements List<E>, RandomAccess, Cloneable, java.io.Serializable
+ */
+
 package corejava.java_basic.collections.Collection.List.ArrayList;
 
 import java.util.ArrayList;
@@ -7,9 +13,12 @@ import java.util.List;
 public class ArrayList1 {
 	public static void main(String[] args) {
 		
+		Iterable i = new ArrayList() {{add(1.23); add(10); add("Sri Krishna");}};
 		Collection c = new ArrayList();
 		List l = new ArrayList();
 		ArrayList al1 = new ArrayList();
+		
+		i.forEach(System.out::println);
 		
 		ArrayList al2 = new ArrayList();
 		al2.add(1); al1.add("Sri Ram"); al2.add(1, 123.456); al2.addAll(List.of(1,2,3)); al2.addAll(1, List.of(9,-9));

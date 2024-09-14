@@ -12,6 +12,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
+@SuppressWarnings({"unchecked", "deprecation"})
 public class FindOutTheHighestAvarageOfStudentsInside2DArray{
 	public static void main(String[] args) {
 		String[][] students = {{"Sri Ram","90"},{"Sri Krishna","98"},{"Sri Ram","95"},{"Sri Ram","100"},{"Sri Krishna","100"},{"Sri Ram","80"},{"Sri Kalki","95"},{"Sri Hari","95"}};

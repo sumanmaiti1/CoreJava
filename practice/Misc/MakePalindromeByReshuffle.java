@@ -10,6 +10,7 @@ package corejava.practice.Misc;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
+@SuppressWarnings({"unchecked","deprecation"})
 public class MakePalindromeByReshuffle {
 	
 	private static boolean isPalindrome=false;
