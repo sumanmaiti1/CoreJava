@@ -1,7 +1,5 @@
 package corejava.practice.javatpoint.simple.pattern;
 
-import java.rmi.NoSuchObjectException;
-
 public class DownwardTriangle {
 	public static void main(String[] args) {
 		DownwardTriangle.downwardTriangle(17, "%");

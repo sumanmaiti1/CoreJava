@@ -1,3 +1,5 @@
+//https://www.w3resource.com/java-exercises/stream/index.php
+
 package corejava.practice.java8.streamAPI;
 
 import java.util.Collections;
