@@ -1,7 +1,5 @@
 package corejava.java_basic.datatypes.strings.string;
 
-import java.lang.invoke.StringConcatException;
-
 public class String_2 {
 	
 	public static void main(String[] args) {

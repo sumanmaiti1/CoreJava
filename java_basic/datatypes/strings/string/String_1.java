@@ -31,8 +31,10 @@ public class String_1 {
         //----------- Total 2 Objects will be created. One will be created in Heap memory with "Jay Shree Ram" value
         //----------- Another one will be created in Sting Constant Pool with for reuse.
         
-        //--------------- euuals and == in String
-      
+        //--------------- equals() and == in String
+        //--------- For string equals() method checks String Content. in String class Object Class's equal method is overridden to give this behavious
+        //---------- In object class , equals() method just check reference check, NOT content  
+        
         System.out.println(s1==s3); //---------- Prints True
         System.out.println(s1.equals(s3)); //---------- Prints True
 
