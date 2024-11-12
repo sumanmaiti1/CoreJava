@@ -40,7 +40,12 @@ public class String_4 {
 		System.out.println(s1.lastIndexOf(83, 2)); //----------- Prints -1
 		System.out.println(s1.lastIndexOf("S",2)); //----------- Prints -1
 		
-		System.out.println();
+		//------------- matches()
+		System.out.println(s1.matches("^Jay ..... Krishna$")); //------------- Prints true
+		System.out.println(s1.matches("^Jay.*")); //------------- Prints true
+		System.out.println(s1.matches(".*Krishna$")); //------------- Prints true
+		System.out.println(s1.matches("Jay Shree Ram")); //------------- Prints false
+			
 	}
 }
 
