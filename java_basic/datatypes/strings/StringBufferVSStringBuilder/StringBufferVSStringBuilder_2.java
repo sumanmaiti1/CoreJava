@@ -16,8 +16,8 @@ import java.util.Iterator;
 
 public class StringBufferVSStringBuilder_2 {
 	
-	StringBuilder sb = new StringBuilder(2000);
-	//StringBuffer sb = new StringBuffer(2000);
+	//StringBuilder sb = new StringBuilder(2000);
+	StringBuffer sb = new StringBuffer(2000);
 	
 	Runnable r1 =  new Runnable() {
 		@Override
